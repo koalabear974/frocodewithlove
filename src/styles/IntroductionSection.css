@@ -1,0 +1,25 @@
+.FloatingSvg {
+  position: absolute;
+}
+
+.FloatingSvg__spirale1 {
+  transition: transform 2s ease-in-out;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 70vw;
+  margin-left: -35vw;
+}
+
+.FloatingSvg__spirale2 {
+  transition: transform 2s ease-in-out;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 70vw;
+  margin-right: -35vw;
+}

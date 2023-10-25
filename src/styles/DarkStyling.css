@@ -1,0 +1,38 @@
+html {
+  transition: background-color 0.7s ease-in-out;
+}
+
+#generated_shape_text{
+  transition: fill 0.7s ease-in-out;
+}
+
+#generated_shape_path, #generated_shape_path_clipped {
+  transition: all 3s ease-in-out, stroke 0.7s ease-in-out;
+}
+
+html.dark {
+  --tw-bg-opacity: 1;
+  background-color: black;
+}
+
+html.dark .dark\:ml-6 {
+  margin-left: 1.5rem;
+}
+
+html.dark #generated_shape_text {
+  fill: white;
+}
+
+html.dark #generated_shape_path {
+  stroke: white;
+}
+html.dark #generated_shape_path_clipped {
+  stroke: black;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  .dark\:ml-6 {
+    margin-left: inherit;
+  }
+}

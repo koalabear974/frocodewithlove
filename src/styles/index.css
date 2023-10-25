@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Space+Mono&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
 
 body {
   margin: 0;
@@ -10,5 +12,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Source Code Pro', monospace, Courier New;
+  font-family: 'Space Mono', monospace;
+  /*font-family: 'Source Code Pro', monospace;*/
+  user-select: none;
+}
+
+.rubik {
+  font-family: 'Rubik Mono One', monospace;
+}
+
+.fp-watermark {
+  display: none;
 }

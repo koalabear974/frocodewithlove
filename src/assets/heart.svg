@@ -6,33 +6,10 @@
    fill="none"
    version="1.1"
    id="svg520"
-   sodipodi:docname="heart.svg"
-   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   >
   <defs
      id="defs524" />
-  <sodipodi:namedview
-     id="namedview522"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     showgrid="false"
-     inkscape:zoom="0.29927103"
-     inkscape:cx="1042.5333"
-     inkscape:cy="800.27793"
-     inkscape:window-width="1728"
-     inkscape:window-height="1051"
-     inkscape:window-x="0"
-     inkscape:window-y="38"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg520" />
   <path
      d="m 601.3814,1154.1981 -86.71537,-78.9406 C 206.67503,795.97487 3.3414528,611.18232 3.3414528,385.7241 3.3414528,200.93104 148.06712,56.804697 332.26428,56.804697 c 104.05843,0 203.93085,48.440803 269.11712,124.391113 65.18627,-75.95031 165.05868,-124.391113 269.11712,-124.391113 184.19708,0 328.92288,144.126343 328.92288,328.919403 0,225.45822 -203.33364,410.25077 -511.32464,689.5334 z"
      fill="#c41e3a"

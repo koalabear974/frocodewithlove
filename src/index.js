@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './styles/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import './styles/index.css';
 
 const firebaseConfig = {
   apiKey: "AIzaSyBubrZuE8MsJXp2wsOD5mpyEDkfkrWPRto",

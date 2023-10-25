@@ -1,21 +1,11 @@
-.LandingHeartContainer {
-  /*background-color: #C41E3A;*/
+.Section__2 {
+  background-color: #A8C256;
 }
-
-.LandingHeartContainer__Title {
-  font-size: 150px;
-  line-height: 120px;
-  width: 200px;
-  text-align: center;
-}
-
-#morphed_path {
-  transition: fill 0.2s;
-  fill: #C41E3A;
-}
-
-#morphed_path:hover {
-  fill: transparent;
+.Section__3 {
+  background-color: #607196;
 }
 
 
+.-rotate-180 {
+  transform: rotate(-180deg);
+}
