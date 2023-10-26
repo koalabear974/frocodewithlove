@@ -25,7 +25,8 @@ const App = () => {
         scrollingSpeed={2000}
         anchors={['0', '1', '2']}
         onLeave={(origin, destination, direction, trigger) => {
-          if (trigger && (destination.anchor === "1" || origin.anchor === "1")) {
+          console.log(origin, destination, direction, trigger);
+          if (destination.anchor === "1" || origin.anchor === "1") {
             document.getElementById("FloatingSvg__spirale1").classList.toggle("rotate-180");
             document.getElementById("FloatingSvg__spirale2").classList.toggle("-rotate-180");
           }

@@ -20,7 +20,7 @@ const InstagramFeed = () => {
     console.log(feedRef.current.innerHTML.length);
     if (feedRef.current.innerHTML.length === 0) {
       var feed = new Instafeed({
-        accessToken: 'IGQWRQb29WRVhXbFMwdmFJdV9ValQzYy0wekJlRFB0WEFPNi1uYllkc0R3S19XcmgzVVNCWTJnMVNqa0FRX0N6T2lBUGRSX0MtWlUycF84Y2ZAnWHFfLXI4SVp2bjB4VHFyUlc0UkxZATFRhOTZACYnhvUEJxSlZAxYlEZD',
+        accessToken: process.env.REACT_APP_INSTAGRAM_ACCESS_TOKEN,
         target: 'instagramFeedContainer',
         template: InstagramPost(),
       });
