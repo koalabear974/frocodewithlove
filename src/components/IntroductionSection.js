@@ -33,7 +33,7 @@ const IntroductionSection = () => {
             Get lost in a <b>rainbow of colors</b>, <b>simple shapes</b>, and <b>interactive
             delights</b>. Follow me
             there for an extra splash of art in your daily scroll. And hey, don't forget to
-            <b>continue your journey</b> by scrolling down to uncover more of my <b>colorful
+            <b> continue your journey</b> by scrolling down to uncover more of my <b>colorful
             creations</b>!
             Let's embark on this creative adventure together.
           </div>

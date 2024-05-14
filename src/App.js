@@ -46,7 +46,14 @@ const App = () => {
                 <IntroductionSection />
               </div>
               <div className="section Section__3">
-                <InstagramFeed />
+                {/*<InstagramFeed />*/}
+                <div className="flex flex-col w-full justify-ceter text-center">
+                  <span className="text-xl rubik font-bold">This website is a WIP!</span><br/>
+                  Come see the latest news on instagram: <br/>
+                  <a className="text-white mt-2 rubik" href="https://www.instagram.com/fromcodewithlove/">
+                    @fromcodewithlove
+                  </a>
+                </div>
               </div>
             </ReactFullpage.Wrapper>
           );

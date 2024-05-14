@@ -29,6 +29,10 @@ html.dark #generated_shape_path {
 html.dark #generated_shape_path_clipped {
   stroke: black;
 }
+html.dark #arrow_down {
+  stroke: white;
+  fill: white;
+}
 
 
 @media (prefers-color-scheme: dark) {
